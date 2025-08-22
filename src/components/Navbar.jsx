@@ -122,8 +122,10 @@ export default function Navbar() {
                     >
                         Contact
                     </p>
-                    <Button variant="resume" size="sm" className="w-full">
-                        Resume
+                    <Button variant="resume" size="sm" className="w-full" asChild>
+                        <a href="/Muthu Yogesh Resume.pdf" download>
+                            Resume
+                        </a>
                     </Button>
                 </div>
             )}
