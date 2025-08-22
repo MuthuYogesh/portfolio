@@ -1,14 +1,27 @@
 import react from 'react'
+import Background from './components/Background';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <h1 className="ml-50 mr-50 text-4xl text-white bg-red-500 mt-10 p-10 rounded-lg w-full">
-        under Build
-      </h1>
-      {/* <Navbar></Navbar>
-      <Herosection></Herosection>
-      <Projects></Projects>
+      <Background>
+        <Navbar></Navbar>
+        <Hero></Hero>
+        <About></About>
+        <Skills></Skills>
+        <Projects></Projects>
+        <Contact></Contact>
+        <Footer></Footer>
+      </Background>
+
+      {/* <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer> */}
     </>
